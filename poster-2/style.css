@@ -1,0 +1,46 @@
+body {
+    background-color:rgb(241, 240, 233);
+}
+
+div.poster {
+    background-color: rgb(0, 0, 0);
+    width: 75%;
+}
+div.small {
+    text-align: center;
+    color: white;
+    font-family: arial; 
+    font-size: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+div.text {
+    color: antiquewhite;
+    font-family: arial;
+    text-align: center;
+    text-transform: uppercase; 
+    transition: .5s;
+    width: 75%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-bottom: 25px;
+    margin-top: 40px ,solid black;
+}
+div.text.one {
+    font-size: 100px;
+    text-align: right;
+    font-weight: thin;
+}
+div.text.two {
+    font-size: 50px;
+    font-kerning: -25px;
+    text-align: left;
+    text-decoration-line: underline;
+    
+}
+div.text.three {
+    font-size: 25px;
+    font-style: bold;
+    text-align: justify;
+
+}
