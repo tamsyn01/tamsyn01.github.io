@@ -19,6 +19,9 @@ div.text {
     transition: .5s;
     border-top: 1px solid black;
 }
+
+/*rule 1*/
+
 div.text.one {
     font-size: 100px;
 }
@@ -27,4 +30,29 @@ div.text.two {
 }
 div.text.three {
     font-size: 25px;
+}
+
+/*rule 2*/
+
+div.text.a {
+    color: black;
+}
+div.text.b {
+    color: rgb(255, 124, 37);
+}
+div.text.c {
+    color: rgb(62, 236, 193);
+}
+
+/*rule 3*/
+
+div.text.x {
+    text-align: left;
+}
+div.text.y {
+    text-align: right;
+    background-color: rgb(157, 207, 192);
+}
+div.text.z {
+    text-align: justify;
 }
