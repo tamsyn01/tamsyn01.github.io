@@ -1,12 +1,13 @@
 body {
     background-color:rgb(241, 240, 233);
+    
 }
-
 div.poster {
-    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0,);
     width: 75%;
+    
 }
-div.small {
+div.small {   
     text-align: center;
     color: white;
     font-family: arial; 

@@ -20,7 +20,6 @@ div.text {
     text-align: center;
     text-transform: uppercase; 
     transition: .5s;
-    border-top: 5px solid rgb(255, 255, 255);
     width: 80%;
     margin-left:auto;
     margin-right: auto;
@@ -43,7 +42,7 @@ div.text.two {
 div.text.three {
     font-size: 25px;
     font-style: italic;
-    background-color: rgb(255, 246, 236);
+    background-color: rgba(165, 165, 247, 0.76);
     text-align: right;
     border-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
