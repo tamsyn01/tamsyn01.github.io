@@ -1,0 +1,135 @@
+body {
+    background-color:rgb(255, 255, 255);
+}
+
+div.poster {
+    background-color: rgb(0, 0, 0);
+    width: 75%;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+div.col {
+   font-family: Arial, Helvetica, sans-serif;
+   overflow: hidden;
+   text-align: center;
+
+}
+
+/* halves columns */
+
+div.w1-2 {
+    width:50%;
+}
+
+div.w2-2 {
+    width:100%;
+}
+
+/* thirds columns */
+
+div.w1-3 {
+    width: 33.33%;
+}
+
+div.w2-3 {
+    width: 66.66%;
+}
+div.w3-3 {
+    width: 100%;
+}
+
+/* quarter columns */
+
+div.w1-4 {
+    width: 25%;
+    transform: rotate(90deg);
+}
+
+
+div.w2-4 {
+    width: 50%;
+}
+div.w3-4 {
+    width: 75%;
+}
+div.w4-4 {
+    width: 100%;
+}
+
+
+
+div.text {
+    font-family: Arial, Helvetica, sans-serif;
+    transition: .5s;
+}
+
+div.small {
+    font-family: arial; 
+    color: aliceblue;
+    font-size: 12.5px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+/*rule 1*/
+
+div.text.one {
+    font-size: 100px;
+}
+div.text.two {
+    font-size: 50px;
+    transform: rotate(90deg);
+}
+div.text.three {
+    font-size: 25px;
+    transform: rotate(180deg);
+}
+
+/*rule 2*/
+
+div.text.a {
+    color: rgb(238, 222, 222);
+}
+div.text.b {
+    color: rgb(219, 33, 33);
+}
+div.text.c {
+    color: rgb(93, 143, 191);
+}
+
+/*rule 3*/
+
+div.text.x {
+     font-family: helvetica;
+   
+}
+div.text.y {
+    font-family: impact;
+    
+}
+div.text.z {
+    font-weight: bolder;
+    
+}
+
+
+/*rule 3*/
+
+/* div.text.x {
+     width: 25%;
+   
+}
+div.text.y {
+    width: 75%;
+    
+}
+div.text.z {
+    width: 100%;
+    
+} */
+
