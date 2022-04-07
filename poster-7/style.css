@@ -71,7 +71,7 @@ div.col1 {
     left: 50%;
     z-index: 20;
     transform: translate(-50%, -40%);
-    font-size: 30px;
+    font-size: 50px;
     font-family: arial;
     text-align: left;  
     color: black;
@@ -89,7 +89,7 @@ div.col2 {
     left: 40%;
     z-index: 20;
     transform: translate(-50%, -40%);
-    font-size: 30px;
+    font-size: 35px;
     font-family: arial;
     text-align: left;  
     color: black;
@@ -105,7 +105,7 @@ div.col3 {
     left: 50%;
     z-index: 20;
     transform: translate(-50%, -40%);
-    font-size: 30px;
+    font-size: 50px;
     font-family: arial;
     text-align: left;  
     color: black;
@@ -122,7 +122,7 @@ div.col4 {
     left: 40%;
     z-index: 20;
     transform: translate(-50%, -40%);
-    font-size: 30px;
+    font-size: 50px;
     font-family: arial;
     text-align: left;  
     color: black;
@@ -133,7 +133,7 @@ div.col4 {
 div.text.one {
     text-decoration: underline;
     color: red;
-    font-size: 50px;
+    font-size: 75px;
     
 }
 div.text.two {
@@ -164,6 +164,7 @@ div.text.c {
 
 div.text.x {
     text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 div.text.y {
     text-align: center;
