@@ -1,3 +1,209 @@
 body {
-    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: whitesmoke;
+    background-color: white;
+    /* background-image: url(images/background.jpg) ; */
+}
+
+img {
+   object-fit: contain;
+   height: 100%;
+}
+
+div.header {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    z-index: 5;
+}
+
+div.logo {
+    font-size: 40px;
+}
+
+div.nav { 
+    padding-left: 20px;
+}
+
+div.masthead {
+   position: fixed;
+   z-index: 4;
+   display: flex;
+    flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   height: 300px;
+   width: 500PX;
+}
+
+div.mastbold {
+    font-weight: bold;
+    font-size: 15px;
+   flex-wrap: wrap;
+}
+
+
+div.mastheader {
+    object-fit: contain;
+   height: 165%;
+    color: red;
+    flex-wrap: flex;
+   display: flex;
+   font-size: 10px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-left: 20px;
+   padding-top: 20px;
+}
+
+div.content {
+position: relative;
+left: 30%;
+}
+
+div.hero {
+    height: 500px;
+    flex-wrap: flex;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+div.about {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+div.title {
+    text-align: center;
+    font-size: 80px;
+}
+
+div.keywords {
+    text-align: center;
+    font-size: 20px;
+}
+
+div.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+div.item {
+    object-fit: contain;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    font-size: 20px;
+
+}
+
+div.item.feature {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 60%;
+    padding: 20px;
+}
+
+div.item.pushright {
+    margin-right: 33.33%;
+}
+
+div.item.pushleft {
+    margin-left: 33.33%;
+}
+
+div.w1-1 {
+    width: 100%;
+}
+
+ /* halves columns */
+ 
+ div.w1-2 {
+    width:50%;
+}
+
+div.w2-2 {
+    width:100%;
+}
+
+/* thirds columns */
+
+div.w1-3 {
+    width: 33.33%;
+}
+
+div.w2-3 {
+    width: 66.66%;
+    /* background-image: url("Asset\ 2.png");
+    background-position: center left;
+    background-repeat: repeat-x;
+    background-size: contain; */
+    
+}
+div.w3-3 {
+    width: 100%;
+}
+
+/* quarter columns */
+
+div.w1-4 {
+    width: 25%;
+}
+
+
+div.w2-4 {
+    width: 50%;
+}
+   
+div.w3-4 {
+    width: 75%;
+} 
+    
+
+div.w4-4 {
+    width: 100%;
+}
+
+/* 10s columns */
+
+div.w1-10 {
+    width: 10%;
+}
+
+div.w2-10 {
+    width: 20%;
+}
+div.w3-10 {
+    width: 30%;
+}
+div.w4-10 {
+    width: 40%;
+}
+div.w5-10 {
+    width: 50%;
+}
+div.w6-10 {
+    width: 60%;
+}
+div.w7-10 {
+    width: 70%;
+}
+div.w8-10 {
+    width: 80%;
+}
+div.w9-10 {
+    width: 90%;
+}
+div.w10-10 {
+    width: 100%;
 }
