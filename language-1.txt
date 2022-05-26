@@ -1,0 +1,7 @@
+nav
+title
+about
+footnotes
+item- image
+text
+footer

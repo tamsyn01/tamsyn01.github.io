@@ -34,7 +34,7 @@ div.masthead {
    position: fixed;
    z-index: 4;
    display: flex;
-    flex-wrap: wrap;
+   flex-wrap: wrap;
    align-items: center;
    justify-content: center;
    height: 300px;
@@ -42,17 +42,34 @@ div.masthead {
 }
 
 div.mastbold {
+    width: 100%;
     font-weight: bold;
     font-size: 15px;
-   flex-wrap: wrap;
+    color: red;
+    position: top left;
+}
+
+div.mastbold2 {
+    font-weight: bold;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+
+div.mastnav {
+    font-weight: bold;
+    font-size: 50px;
+    color: red;
+    background-color: blue;
+
 }
 
 
 div.mastheader {
-    object-fit: contain;
+   object-fit: contain;
    height: 165%;
-    color: red;
-    flex-wrap: flex;
+   color: red;
+   flex-wrap: flex;
    display: flex;
    font-size: 10px;
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -61,13 +78,13 @@ div.mastheader {
 }
 
 div.content {
-position: relative;
-left: 30%;
+    position: relative;
+    left: 30%;
 }
 
 div.hero {
-    height: 500px;
-    flex-wrap: flex;
+   height: 500px;
+   flex-wrap: flex;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -75,9 +92,13 @@ div.hero {
 }
 
 div.about {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
+    font-kerning: var(55px);
+    text-align: center;
+    justify-content: center;
 }
+    
+
 
 div.title {
     text-align: center;
@@ -96,35 +117,48 @@ div.container {
 }
 
 div.item {
-    object-fit: contain;
-    height: 200px;
-    padding: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
-    font-size: 20px;
+    align-items: center center;
+    font-size: 10px;
+    color: red;
 
 }
 
-div.item.feature {
+ div.item.feature {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
     width: 60%;
+    height: 600px;
+    width: 600px;
     padding: 20px;
 }
 
+div.feature image {
+    width: 50%;
+    margin-left: auto;
+}
+
+div.item.bordersolid {
+    border: solid red 2px;
+}
+
+
+div.item.borderblur {
+    border: solid red 2px;
+}
+
+/*
 div.item.pushright {
     margin-right: 33.33%;
 }
 
 div.item.pushleft {
-    margin-left: 33.33%;
-}
-
-div.w1-1 {
-    width: 100%;
-}
+    margin-left: 33.33%; */
 
  /* halves columns */
  
