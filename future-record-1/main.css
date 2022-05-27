@@ -22,19 +22,36 @@ div.header1 {
     width: 30%;
     color: white;
     font-size: 10px;
+    opacity: 0%;
+}
+
+@font-face {
+    font-family: "custom";
+    src:url("Teko-Regular.ttf") format("ttf");
+    src:url("teko-regualr.woff") format("woff");
+}
+
+@font-face {
+    font-family: "custom2";
+    src:url("HussarBoldWeb-bf92.woff") format("woff");
 }
 
 div.header2 {
+    font-family: "custom2";
     width: 70%;
     text-align: center;
-    color: red;
-    font-size: 50px;
+    color: white;
     border: 1px solid red;
-}
-
-div.header2:hover {
     font-stretch: ultra-expanded;
     font-style: oblique;
+    font-size: 100px;
+    font-feature-settings: "aalt";
+}
+
+
+
+div.header2:hover {
+  font-stretch: 200%;
 }
 
 
@@ -47,23 +64,40 @@ div.sidebar {
     display: flex;
     flex-wrap: wrap;
     position: fixed;
-    color: red;
+    color: black;
+}
+div.buttons {
+    width: 10%;
+    background-image: url("images/300ppi/Asset\ 9.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center left;
+    color: rgba(0, 0, 0, 0);
 }
 
-div.button {
+div.buttons:hover {
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    font-weight: bold;
     border-radius: 10%;
-    color: black;
+    color: white;
+    background-image: none;
 }
 
 div.about {
+    margin-top: 45px;
     margin-left: 20px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    color: white;
+    opacity: 0%;
+}
+
+div.about:hover {
+    color: red;
+    opacity: 100%;
 }
 
 div.container {
@@ -85,12 +119,16 @@ flex-wrap: wrap;
 display: flex;
 justify-content: center;
 margin-top: 0;
+
 }
 
 div.info {
-text-align: left;
+text-align: justify;
 margin-top: 10px;
 margin-left: 10px;
+padding-top: 10px;
+padding-left: 20px;
+padding-right: 80px;
 font-size: 15px;
 font-kerning: var(25px);
 justify-content: center;
@@ -107,17 +145,20 @@ a:hover {
 }
 
 div.mastbold2 {
+    transform: rotate(7.5deg);
+    font-family: "custom2";
     color: red;
-    font-size: 30px;
+    font-size: 125px;
     width: 100%;
     text-align: right;
     padding-right: 10px;
+    text-decoration-line: line-through;
+
 }
 
 div.card {
     /* background-color: red; */
 width: 100%;
-height: 25%;
 flex-wrap: wrap;
 display: flex;
 justify-content: center;
@@ -125,31 +166,24 @@ margin-bottom: 15px;
 object-fit: contain;
 }
 
-div.card:hover {
- background-image: url("images/red.jpg");
-}
-
-
 div.outline {
 margin: 5px;
 background-color: black;
 width: 100%;
-height: 96%;
-flex-wrap: wrap;
-display: flex;
 justify-content:  center;
 position: relative;
 }
 
 img {
     width: 90%;
-    height: 90%;
-    justify-content:  center center;
     margin-top: 3%;
     background-repeat: no-repeat;
     background-size: contain;
-    object-fit: contain;
     border: 1px solid red;
+}
+
+div.img:hover {
+border-color: solid 2px white;
 }
 
 div.tag {
