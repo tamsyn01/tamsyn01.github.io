@@ -1,0 +1,45 @@
+body {
+    background-color: #89ccb9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center; 
+}
+
+div.header {
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+div.carrier {
+    background-color: white;
+    width: 80%;
+    height: 500px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+}
+
+
+div.video {
+    width: 100%;
+}
+
+
+div.footer {
+border-top: solid 1px white;
+padding-top: 10px;
+font-size: 10px;
+margin: 50px;
+}
+
+div.footer1 {
+width: 45%;
+display: flex;
+text-align: left;
+flex-wrap: wrap;
+font-size: 20px;
+font-weight: lighter;
+}
