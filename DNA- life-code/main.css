@@ -10,36 +10,80 @@ div.header {
     padding-top: 50px;
     color: white;
     text-align: center;
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 150px;
+    margin-bottom: 10px;
 }
 
 div.carrier {
-    background-color: white;
-    width: 80%;
-    height: 500px;
-    margin-bottom: 100px;
-    margin-left: 10%;
+    width: 60%;
+    /* height: 50px; */
+    margin-bottom: 20px;
+    margin-left: 20%;
 }
 
 
 div.video {
     width: 100%;
+    margin-bottom: 50px;
+}
+
+div.post {
+    margin-top: 65px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+
+div.image {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+img {
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain; 
 }
 
 
+div.together {
+    width: 80%;
+    margin-bottom: 10px;
+    margin-left: 10%;
+}
+
 div.footer {
+width: 90%;
+margin-left: 5%;
 border-top: solid 1px white;
-padding-top: 10px;
 font-size: 10px;
-margin: 50px;
+display: flex;
+flex-wrap: wrap;
 }
 
 div.footer1 {
-width: 45%;
-display: flex;
+width: 50%;
 text-align: left;
-flex-wrap: wrap;
 font-size: 20px;
 font-weight: lighter;
+}
+
+div.footer2 {
+    width: 50%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+    }
+
+div.foot {
+    width: 50%;
+    text-align: left;
+    font-size: 10px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+div.video1 {
+    width: 100%;
+    background-color: #89ccb9;
 }
