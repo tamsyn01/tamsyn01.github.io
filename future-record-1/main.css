@@ -50,15 +50,17 @@ div.header1 {
 
 div.header2 {
     width: 49%;
+    height: 100px;
     padding-top: 15px;
     padding-left: 15px;
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: 40%;
     font-family: "custom2";
     text-align: left;
-    color: white;
-    border: 3px solid red;
+    color: red;
+    /* border: 3px solid red; */
     font-size: 50px;
+
 }
 
 
@@ -83,7 +85,7 @@ div.buttons {
     padding-left: 20px;
     margin-right: 0px;
     width: 20%;
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 5px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -99,8 +101,8 @@ div.about {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0);
     font-kerning: var(25px);
-    line-height: 20px;
-    margin-top: -160px;
+    line-height: 25px;
+    margin-top: -220px;
     margin-left: 20px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
@@ -110,15 +112,44 @@ div.about {
     margin-bottom: 100px;
 }
 
+div.about1 {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    font-kerning: var(25px);
+    line-height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: "custom2";
+    font-weight: lighter;
+
+    opacity: 100%;
+    color: red;
+    margin-bottom: 100px;
+}
+
 div.container {
     width: 80%;
     height: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    position:absolute;
+    right:2%;
+}
+
+div.container2 {
+    margin-top: 300px;
+    margin-right: 2.5%;
+    width: 90%;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     position:absolute;
     right:2%;
-
 }
 
 div.hero {
@@ -149,13 +180,6 @@ width: 50%;
 border: 3px solid red;
 }
 
-a {
-    color: black;
-}
-
-a:hover {
-    color: red;
-}
 
 div.mastbold2 {
     /* margin-top: 200px; */
@@ -191,11 +215,11 @@ position: relative;
 
 img {
     padding: 5px;
-    width: 80%;
+    width: 100%;
     margin-top: 3%;
     background-repeat: no-repeat;
     background-size: contain;
-    border: 2px solid red;
+    /* border: 2px solid white; */
 }
 
 div.img:hover {
@@ -203,17 +227,20 @@ border-color: solid 2px white;
 }
 
 div.tag {
-color: black;
-background-color: red;
-border-width: 2px;
-border-style: solid;
-height: 5%;
+/* background-color: rgba(255, 0, 0, 0);
+    background-image: url("images/tag.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: center; */
+
+width: 40%;
+
 position: absolute;
 padding: 5px;
-bottom: 0;
+top: 0;
 margin-left: 70%;
-margin-bottom: 10px;
-margin-right: 5px;
+margin-bottom: 20%;
+margin-right: 10%;
 display: flex;
   justify-content: center;
   align-content: center;
@@ -222,14 +249,61 @@ display: flex;
   
 }
 
+a {
+    height: 20%;
+    position: bottom center;
+   
+    margin-left: 10%;
+    color: white;
+    font-style: bolder;
+font-size: 20px;
+font-family: "custom2";
+text-align: center;
+padding-top: 50%;
+padding-left: 10px;
+text-decoration-line: none;
+
+}
+
+a:hover {
+    color: rgba(255, 0, 0, 0);
+}
+
+
 div.footer {
 margin-top: 100px;
 width: 100%;
-height: 100px;
     font-size: 7px;
     border-top: 1px solid white;
     padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
+
+div.foot2 {
+    color: red;
+}
+
+div.boot {
+width: 100%;
+height: 200px;
+margin-top: -50px;
+    background-image: url("images/head3.2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    bottom: 0;
+}
+
+/* 
+div.foot1 {
+
+}
+
+div.foot2 {
+
+} */
 
 /* div.spot1 {
 z-index: 6;

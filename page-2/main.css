@@ -4,19 +4,24 @@ body {
     font-size: 24px;
     color: white;
     background-image: url("images/background.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
-    background-color:black;
+}
+
+video {
+    margin-top:0px;
+    width: 20%;
+    margin-left: 10px;
+    background-blend-mode: screen;
 }
 
 div.header {
-    
     width: 100%;
     height: 10%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    padding: 20px
+    padding: 20px;
 }
 
 div.header1 {
@@ -42,21 +47,26 @@ div.header3 {
 }
 
 div.container {
-    
     width: 100%;
-    height: 1000px;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     position:absolute;
-    top:11%;
-    right:0;
 }
 
 div.sidebar {
-
+    margin-top: -30%;
+    padding-left: 2.5%;
+    margin-right: 50%;
     display: flex;
     flex-wrap: wrap;
+    color: red;
+    font-kerning: var(25px);
+    line-height: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    opacity: 100%;
 }
 
 div.button {
@@ -71,9 +81,11 @@ div.about {
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+    
 }
 
 div.hero {
+   margin-left: 50%;
 flex-wrap: wrap;
 display: flex;
 justify-content: center;
@@ -103,7 +115,6 @@ margin-bottom: 15px;
 
 div.outline {
 margin: 5px;
-background-color: black;
 width: 100%;
 height: 96%;
 flex-wrap: wrap;
@@ -142,11 +153,38 @@ display: flex;
   flex-direction: column;
 }
 
+
 div.footer {
-margin-top: 100px;
-width: 100%;
-height: 100px;
-}
+    margin-top: 100px;
+ 
+        font-size: 7px;
+        border-top: 1px solid white;
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        
+      
+        margin-right: 2.5%;
+        width: 90%;
+    
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        position:absolute;
+        right: 2.5%;
+    }
+
+    div.boot {
+        width: 100%;
+        height: 200px;
+        margin-top: -50px;
+            background-image: url("images/head3.2.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
 
 /* div.spot1 {
 z-index: 6;
