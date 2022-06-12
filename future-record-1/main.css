@@ -123,6 +123,8 @@ div.about1 {
     font-family: "custom2";
     font-weight: lighter;
 
+    border: solid red 2px;
+
     opacity: 100%;
     color: red;
     margin-bottom: 100px;
