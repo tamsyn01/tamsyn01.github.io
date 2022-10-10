@@ -13,7 +13,7 @@ body {
 
 @font-face {
     font-family: "font";
-    src: url("BellCentennialStd-Address.otf") format('opentype'), url("BellCentennialStd-Address.woff") format('woff');
+    src: url("BellCentennialStd-Address.otf") format('otf'), url("BellCentennialStd-Address.woff") format('woff');
 }
 
 
