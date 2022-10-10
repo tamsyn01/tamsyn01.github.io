@@ -13,7 +13,7 @@ body {
 
 @font-face {
     font-family: "font";
-    src: url("BellCentenntialAdress.otf") format(opentype);
+    src: url("BellCentennialStd-Address.otf") format('opentype'), url("BellCentennialStd-Address.woff") format('woff');
 }
 
 
@@ -89,6 +89,7 @@ div.content {
 }
 
 div.feature {
+    font-family: 'Times New Roman', Times, serif;
     margin-left: 10%;
     margin-right: 40%;
     margin-top: 100px;
