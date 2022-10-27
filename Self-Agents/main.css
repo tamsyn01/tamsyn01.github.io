@@ -97,6 +97,35 @@ div.feature {
     font-size: 200px;
 }
 
+div.feature.one {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-right: 40%;
+    margin-top: 100px;
+    align-self: center center;
+    font-size: 200px;
+}
+
+div.feature.two {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-left: 10%;
+    margin-right: 40%;
+    margin-top: 100px;
+    align-self: center center;
+    font-size: 200px;
+}
+div.feature.three {
+    font-family: 'Times New Roman', Times, serif;
+    transform: skew(20deg);
+    margin-left: 10%;
+    margin-right: 40%;
+    margin-top: 100px;
+    align-self: center center;
+    font-size: 200px;
+    
+}
+
 div.content2 {
     margin-top: 50px;
     padding-left: 70%;
