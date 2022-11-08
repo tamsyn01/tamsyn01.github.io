@@ -1,12 +1,12 @@
 body {
     background-color: #f6f5f1;
-    background-image: url(background1.jpg) ;
-    background-size: contain;
+    background-image: url(background3.jpg) ;
+    background-size: cover;
     background-repeat: repeat;
     /* cursor: url("scissors.png"), auto, default ; */
     font-family: "font";
-    font-size: 10px;
-    color: #5e6b4d;
+    font-size: 20px;
+    color: #667354;
     text-align: center; 
 
 }
@@ -16,6 +16,10 @@ body {
     src: url("BellCentennialStd-Address.otf") format('otf'), url("BellCentennialStd-Address.woff") format('woff');
 }
 
+@font-face {
+    font-family: "bold";
+    src: url("BellCentennialStd-NameNum.otf") format('otf'), url("BellCentennialStd-Address.woff") format('woff');
+}
 
 /* div.space {
     margin: 0;
@@ -26,21 +30,28 @@ body {
     
 } */
 
-div.nav {
-    margin-top: 30px;
-    padding-left: 10%;
-    padding-bottom: 2%;
-    text-align: left;
-    font-size: 10px;
-    font-weight: lighter;
-    margin-bottom: 40px;
-
-    display: flex;
+div.container {
+    margin-top: 900px;
+    margin-left: 10%;
     flex-wrap: wrap;
+    display: flex;
 }
 
-div.agent {
 
+div.left {
+    margin-top: 20px;
+}
+div.right {
+    text-align: left;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+
+
+div.agent {
 margin-right: 40%;
 }
 
@@ -54,7 +65,20 @@ div.header {
     margin-top: 100px;
     margin-left: 12%;
     /* background-color: blue; */
-    color: #dfd3b4;
+    color: #667354;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+div.header1 {
+    font-family: "bold";
+    margin-top: 100px;
+    margin-left: 12%;
+    /* background-color: blue; */
+    color: #667354;
     text-align: center;
     font-size: 20px;
     display: flex;
@@ -82,49 +106,28 @@ div.title2 {
 }
 
 div.content {
-    margin-top: 500px;
     padding-left: 10%;
+    padding-right: 5%;
     text-align: left;
     font-size: 20px;
 }
 
 div.feature {
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 10%;
-    margin-right: 40%;
-    margin-top: 100px;
-    align-self: center center;
-    font-size: 200px;
+margin-left: 40%;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 60px;
 }
 
-div.feature.one {
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 10%;
-    margin-right: 40%;
-    margin-top: 100px;
-    align-self: center center;
-    font-size: 200px;
-}
+div.right2 {
+    margin-left: 40%;
+        margin-top: 10px;
+        text-align: left;
+        background-color: aqua;
+       
+    }
 
-div.feature.two {
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    margin-left: 10%;
-    margin-right: 40%;
-    margin-top: 100px;
-    align-self: center center;
-    font-size: 200px;
-}
-div.feature.three {
-    font-family: 'Times New Roman', Times, serif;
-    transform: skew(20deg);
-    margin-left: 10%;
-    margin-right: 40%;
-    margin-top: 100px;
-    align-self: center center;
-    font-size: 200px;
-    
-}
+
 
 div.content2 {
     margin-top: 50px;
@@ -151,13 +154,19 @@ div.column {
 
 div.foot {
     margin-top: 30px;
-    padding-top: 70px;
-    padding-left: 50%;
     width: 50%;
     text-align: left;
     font-size: 10px;
     font-weight: lighter;
-    margin-bottom: 40px;
+    
+}
+div.foot2 {
+    margin-top: 30px;
+    width: 50%;
+    text-align: left;
+    font-size: 10px;
+    font-weight: lighter;
+    margin-bottom: 500px;
 }
 
 
