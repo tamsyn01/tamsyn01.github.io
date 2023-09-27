@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: rgb(0, 0, 0);
+    text-decoration-line:none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.face {
+    width: 100%;
+    height: 200px;
+}
+
+
+div.contains {
+    margin-top:0px;
+    width: 60%;
+    background-color: rgba(1, 1, 1, 0);
+}
+div.contains2 {
+    margin-top:2px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+video {
+    margin-top:0px;
+    width: 80%;
+    margin-left: 10%;
+    background-blend-mode: screen;
+}
+
+div.header1 {
+    padding-top: 5%;
+    color: rgb(113, 113, 113);
+    font-size: 15px;
+}
+
+div.header1:hover {
+    padding-top: 5%;
+    color: rgb(113, 113, 113);
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: "custom";
+    src:url("Teko-Regular.ttf") format("ttf");
+    src:url("teko-regualr.woff") format("woff");
+}
+
+@font-face {
+    font-family: "custom2";
+    src:url("HussarBoldWeb-bf92.woff") format("woff");
+}
+
+div.header2 {
+    padding-top: 30%;
+    font-family: "custom2";
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+div.holders { 
+    margin-top:20px;
+    margin-left: 5%;
+    width: 40%;
+    height: 400px;
+    color: rgb(231, 79, 79);
+    background-color: rgba(0, 0, 0, 0);
+    border: solid rgb(255, 255, 255) 1px; 
+    align-items: center center;
+    text-align: center center;
+}
+
+div.pic {
+    margin:10px;
+    align-items: center center;
+    text-align: center center;
+}
+
+/* display: flex;
+    flex-wrap: wrap;
+    position: relative; */
+
+div.header2:hover {
+  font-stretch: 200%;
+}
+
+
+div.container {
+    width: 80%;
+    height: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    position:absolute;
+    right:2%;
+}
+
+div.container2 {
+    margin-top: 300px;
+    margin-right: 2.5%;
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    position:absolute;
+    right:2%;
+}
+
+
+img {
+    padding: 5px;
+    width: 100%;
+    margin-top: 3%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 2px solid white; */
+}
+
+div.img:hover {
+border-color: solid 2px white;
+}
+
+
+a {
+    height: 20%;
+    position: bottom center;
+    margin-left: 5%;
+    color: rgb(145, 145, 145);
+font-size: 20px;
+font-family: "custom2";
+text-align: center;
+padding-top: 50%;
+padding-left: 10px;
+text-decoration-line: none;
+
+}
+
+a:hover {
+    color: rgb(230, 70, 70);
+    text-decoration-line: solid;
+}
+
+
+div.footer {
+margin-top: 100px;
+width: 100%;
+    font-size: 7px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.foot2 {
+    color: rgb(231, 79, 79);
+}
+
+div.boot {
+width: 100%;
+height: 200px;
+margin-top: -50px;
+    /* background-image: url("images/head3.2.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    bottom: 0;
+}
