@@ -1,0 +1,254 @@
+body {
+    background-color: #C4D9E8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: center; 
+
+}
+
+div.header {
+width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+   background-color: #ffffff;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background:rgba(155, 202, 235, 0.402);
+    border-radius: 100vw;
+}
+
+div.buttons {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #f2e9db;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    color: #c4d9e8cc;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.arts {
+    mix-blend-mode: darken;
+} 
+div.design {
+    mix-blend-mode: darken;
+}
+div.photography {
+    mix-blend-mode: darken;
+}
+div.contact {
+    mix-blend-mode: darken;
+}
+
+a {
+    text-decoration: none;
+    color: #c4d9e8cc;
+    background-color: #f2e9db;
+}
+
+a:hover {
+    color: #87a8c0;
+}
+
+div.pdf {
+    height: 50px;
+}
+
+div.card {
+
+width: 100%;
+flex-wrap: wrap;
+display: flex;
+justify-content: center;
+margin-bottom: 10px;
+
+object-fit: contain;
+background-color: #f2e9db;
+color: #87a8c0;
+
+}
+
+div.outline {
+width: 100%;
+padding:2%;
+justify-content:  center;
+position: relative;
+}
+
+div.small {
+    font-size: smaller;
+}
+
+img {
+    padding: 4%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+@font-face {
+    font-family: "font";
+    src: url("BellCentennialStd-Address.otf") format('otf'), url("BellCentennialStd-Address.woff") format('woff');
+}
+
+/* div.background {
+    position: absolute;
+} */
+
+div.video {
+    display: flex;
+flex-wrap: wrap;
+    position: absolute;
+    background-color: #f2e9db;
+}
+
+div.header {
+    padding-top: 50px;
+    padding-left: 5%;
+    color: blanchedalmond;
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+div.me {
+
+    margin-left: 7%;
+    margin-right: 5%;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    
+    height: 500px;
+    opacity: 100%;
+    color: blanchedalmond;
+    font-size: 30px;
+    font-style: italic;
+    text-align: justify;
+    hyphens: none;
+  line-height: 35px;
+text-justify: distribute-all-lines ;
+
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+
+div.background {
+width: 30%;
+padding-left: 5%;
+}
+
+div.container {
+    background-color:#f2e9db;
+    width: 100%;
+}
+
+div.foot {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    height: 100px;
+    color: #f2e9db;
+    font-size: larger;
+}
+
+div.gap {
+    margin-right:5%;
+}
+
+div.w1-2 {
+    width:45%;
+}
+
+div.w2-2 {
+    width:100%;
+}
+
+/* thirds columns */
+
+div.w1-3 {
+    width: 33.33%;
+}
+
+div.w2-3 {
+    width: 66.66%;
+    /* background-image: url("Asset\ 2.png");
+    background-position: center left;
+    background-repeat: repeat-x;
+    background-size: contain; */
+    
+}
+div.w3-3 {
+    width: 100%;
+}
+
+/* quarter columns */
+
+div.w1-4 {
+    width: 25%;
+}
+
+
+div.w2-4 {
+    width: 50%;
+}
+   
+div.w3-4 {
+    width: 75%;
+} 
+    
+
+div.w4-4 {
+    width: 100%;
+}
+
+/* 10s columns */
+
+div.w1-10 {
+    width: 10%;
+}
+
+div.w2-10 {
+    width: 20%;
+}
+div.w3-10 {
+    width: 30%;
+}
+div.w4-10 {
+    width: 40%;
+}
+div.w5-10 {
+    width: 50%;
+}
+div.w6-10 {
+    width: 60%;
+}
+div.w7-10 {
+    width: 70%;
+}
+div.w8-10 {
+    width: 80%;
+}
+div.w9-10 {
+    width: 90%;
+}
+div.w10-10 {
+    width: 100%;
+}
