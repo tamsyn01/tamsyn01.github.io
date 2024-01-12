@@ -1,0 +1,188 @@
+body {
+    background-color: #C4D9E8;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    text-align: center; 
+
+}
+div.buttons {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #f2e9db;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    color: #c4d9e8cc;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.arts {
+    mix-blend-mode: darken;
+} 
+div.design {
+    mix-blend-mode: darken;
+}
+div.photography {
+    mix-blend-mode: darken;
+}
+div.contact {
+    mix-blend-mode: darken;
+}
+
+a {
+    text-decoration: none;
+    color: #c4d9e8cc;
+}
+
+a:hover {
+    color: #87a8c0;
+}
+
+div.card {
+    /* background-color: red; */
+width: 100%;
+flex-wrap: wrap;
+display: flex;
+justify-content: center;
+margin-bottom: 15px;
+object-fit: contain;
+background-color: white;
+
+}
+
+div.outline {
+    background-color: rgb(50, 116, 166);
+margin: 5px;
+width: 100%;
+justify-content:  center;
+position: relative;
+}
+
+img {
+    padding: 5px;
+    width: 100px;
+    margin-top: 3%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 2px solid white; */
+}
+
+div.img:hover {
+border-color: solid 2px white;
+}
+
+@font-face {
+    font-family: "font";
+    src: url("BellCentennialStd-Address.otf") format('otf'), url("BellCentennialStd-Address.woff") format('woff');
+}
+
+/* div.background {
+    position: absolute;
+} */
+
+div.video {
+    position: absolute;
+    background-color: #f2e9db;
+}
+
+div.me {
+    margin-top: 200px;
+    padding-left: 10%;
+    width: 60%;
+    height: 500px;
+    opacity: 100%;
+    color: blanchedalmond;
+    font-size: 30px;
+    text-align: justify;
+    hyphens: none;
+  line-height: 35px;
+text-justify: distribute-all-lines ;
+
+}
+
+
+
+
+div.w1-2 {
+    width:50%;
+}
+
+div.w2-2 {
+    width:100%;
+}
+
+/* thirds columns */
+
+div.w1-3 {
+    width: 33.33%;
+}
+
+div.w2-3 {
+    width: 66.66%;
+    /* background-image: url("Asset\ 2.png");
+    background-position: center left;
+    background-repeat: repeat-x;
+    background-size: contain; */
+    
+}
+div.w3-3 {
+    width: 100%;
+}
+
+/* quarter columns */
+
+div.w1-4 {
+    width: 25%;
+}
+
+
+div.w2-4 {
+    width: 50%;
+}
+   
+div.w3-4 {
+    width: 75%;
+} 
+    
+
+div.w4-4 {
+    width: 100%;
+}
+
+/* 10s columns */
+
+div.w1-10 {
+    width: 10%;
+}
+
+div.w2-10 {
+    width: 20%;
+}
+div.w3-10 {
+    width: 30%;
+}
+div.w4-10 {
+    width: 40%;
+}
+div.w5-10 {
+    width: 50%;
+}
+div.w6-10 {
+    width: 60%;
+}
+div.w7-10 {
+    width: 70%;
+}
+div.w8-10 {
+    width: 80%;
+}
+div.w9-10 {
+    width: 90%;
+}
+div.w10-10 {
+    width: 100%;
+}
