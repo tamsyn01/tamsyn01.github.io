@@ -10,20 +10,17 @@ body {
 
 ::-webkit-scrollbar {
     width: 10px;
-  }
+}
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f100;
-  }
-  
-::-webkit-scrollbar-thumb {
-    background: #c13b3b;
-  }
-  
- ::-webkit-scrollbar-thumb:hover {
-    background: #1616b4;
-  }
+    background: rgba(255, 255, 255, 0.126);
+    border-radius: 100vw;
+}
 
+::-webkit-scrollbar-thumb {
+    background:#87a8c0ba;
+    border-radius: 100vw;
+}
 
 div.buttons {
     padding-top: 20px;
