@@ -7,6 +7,24 @@ body {
     text-align: center; 
 
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: #c13b3b;
+  }
+  
+ ::-webkit-scrollbar-thumb:hover {
+    background: #1616b4;
+  }
+
+
 div.buttons {
     padding-top: 20px;
     padding-bottom: 10px;
