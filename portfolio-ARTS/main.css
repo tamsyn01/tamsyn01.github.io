@@ -12,6 +12,20 @@ div.header {
 width: 100%;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+   background-color: #ffffff;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background:rgba(155, 202, 235, 0.402);
+    border-radius: 100vw;
+}
+
 div.buttons {
     padding-top: 20px;
     padding-bottom: 10px;
