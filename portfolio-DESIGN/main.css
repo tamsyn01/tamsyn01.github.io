@@ -1,11 +1,16 @@
 body {
     background-color: #C4D9E8;
+    color: #f2e9db;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: 20px;
     text-align: center; 
 
+}
+div.subheading {
+    margin-left: 5%;
+    text-align: left;
 }
 
 div.header {
