@@ -51,6 +51,7 @@ div.contact {
 a {
     text-decoration: none;
     color: #c4d9e8cc;
+    background-color: #f2e9db;
 }
 
 a:hover {
@@ -110,7 +111,7 @@ div.me {
     width: 60%;
     height: 500px;
     opacity: 100%;
-    color: blanchedalmond;
+    color:#87a8c0;
     font-size: 30px;
     text-align: justify;
     hyphens: none;
