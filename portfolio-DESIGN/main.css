@@ -82,13 +82,26 @@ color: #87a8c0;
 
 div.outline {
 width: 100%;
-padding:2%;
-justify-content:  center;
+padding: 2%;
+justify-content: center;
 position: relative;
+font-size: 20px;
+
 }
 
 div.small {
-    font-size: smaller;
+    
+    flex-wrap: wrap;
+    display: flex;
+
+    font-size: 15px;
+    line-height: normal;
+    width: 60%;
+}
+
+div.smaller {
+    width: 100%;
+    text-align: right
 }
 
 img {
