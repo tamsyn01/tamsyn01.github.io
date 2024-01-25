@@ -60,6 +60,11 @@ div.contact {
 a {
     text-decoration: none;
     color: #c4d9e8cc;
+    background-color: #f2e9db;
+    /* border: #f2e9db 2px solid; */
+   padding-left: 4px;
+   padding-right: 4px;
+    
 }
 
 a:hover {
@@ -125,7 +130,8 @@ img {
 div.video {
     display: flex;
 flex-wrap: wrap;
-    position: absolute;
+    position: relative;
+  
     background-color: #f2e9db;
 }
 
@@ -165,6 +171,7 @@ text-justify: distribute-all-lines ;
 div.background {
 width: 30%;
 padding-left: 5%;
+padding-bottom: 5px;
 }
 
 div.container {

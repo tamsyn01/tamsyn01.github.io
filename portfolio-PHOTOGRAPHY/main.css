@@ -152,6 +152,7 @@ text-justify: distribute-all-lines ;
 div.background {
 width: 30%;
 padding-left: 5%;
+padding-bottom: 5px;
 }
 
 div.container {
