@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
+    font-size: 20px;
     text-align: center; 
 
 }
@@ -62,9 +62,38 @@ a:hover {
     color: #87a8c0;
 }
 
+b {
+    text-decoration: none;
+    color: #c4d9e8cc;
+    background-color: #f2e9dbb2;
+
+   padding-left: 4px;
+   padding-right: 4px;
+   padding-top: 2px;
+   padding-bottom: 2px;
+
+   margin-right: 10px;
+  
+   border-radius: 10%;
+    
+}
+
+b:hover {
+    color: #87a8c0;
+}
+
 div.pdf {
     height: 50px;
 }
+
+div.subheading {
+    margin-left: 5%;
+    text-align: left;
+
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+} 
 
 div.card {
 

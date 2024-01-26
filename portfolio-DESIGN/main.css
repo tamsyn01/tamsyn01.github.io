@@ -8,9 +8,18 @@ body {
     text-align: center; 
 
 }
+
+@font-face {
+    font-family:'elephant';
+    src: url('Elephant\ Regular.ttf');
+}
 div.subheading {
     margin-left: 5%;
     text-align: left;
+
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 div.header {
@@ -60,16 +69,35 @@ div.contact {
 a {
     text-decoration: none;
     color: #c4d9e8cc;
-    background-color: #f2e9db;
+    background-color: #f2e9dbc8;
     /* border: #f2e9db 2px solid; */
    padding-left: 4px;
    padding-right: 4px;
+   margin-right: 10px;
     
 }
+
 
 a:hover {
     color: #87a8c0;
 }
+
+div.scrolled {
+    width: 100%;
+    padding-top: 20px;
+    font-family: 'elephant';
+    padding-bottom: 4px;
+}
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
 
 div.card {
 
@@ -91,8 +119,8 @@ padding: 2%;
 justify-content: center;
 position: relative;
 font-size: 20px;
-
 }
+
 
 div.small {
     
@@ -102,6 +130,29 @@ div.small {
     font-size: 15px;
     line-height: normal;
     width: 60%;
+}
+
+div.ani {
+width: 45%;
+}
+
+div.vid {
+    width: 50%;
+}
+div.vidsmaller {
+    width: 100%;
+   margin-top: 4px;
+    text-align: left
+}
+
+div.vidsmall {
+    
+    flex-wrap: wrap;
+    display: flex;
+
+    font-size: 15px;
+    line-height: normal;
+    width: 40%;
 }
 
 div.smaller {
@@ -187,6 +238,12 @@ div.foot {
     height: 100px;
     color: #f2e9db;
     font-size: larger;
+}
+
+div.flex {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 div.gap {
