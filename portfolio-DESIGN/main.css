@@ -142,7 +142,8 @@ div.vid {
 div.vidsmaller {
     width: 100%;
    margin-top: 4px;
-    text-align: left
+    text-align: left;
+    
 }
 
 div.vidsmall {
@@ -152,12 +153,13 @@ div.vidsmall {
 
     font-size: 15px;
     line-height: normal;
-    width: 40%;
+    width: 100%;
 }
 
 div.smaller {
     width: 100%;
-    text-align: right
+    text-align: right;
+    color:#c4d9e88c;
 }
 
 img {
