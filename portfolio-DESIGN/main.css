@@ -89,15 +89,9 @@ div.scrolled {
     padding-bottom: 4px;
 }
 
-
-
-
-
 html {
   scroll-behavior: smooth;
 }
-
-
 
 div.card {
 
@@ -170,6 +164,20 @@ img {
 
 }
 
+div.tops { 
+
+    width: fit-content;
+   
+    position: fixed;
+    bottom:20%;
+    right: 5%;
+
+    z-index:1 ;
+}
+
+div.dark {
+    color: #87a8c0;
+}
 
 @font-face {
     font-family: "font";
