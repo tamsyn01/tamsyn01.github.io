@@ -140,15 +140,20 @@ div.me {
     color: blanchedalmond;
     font-size: 30px;
     font-style: italic;
-    text-align: justify;
+text-align: left;
     hyphens: none;
   line-height: 35px;
-text-justify: distribute-all-lines ;
+
 
     display: flex;
     flex-wrap: wrap;
     position: absolute;
 }
+
+div.larger {
+    font-size: larger;
+}
+
 
 
 div.background {
